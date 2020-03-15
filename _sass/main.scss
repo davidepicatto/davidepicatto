@@ -1,0 +1,30 @@
+body {
+  margin: 1rem auto;
+  max-width: 80%;
+  font-family: 'Sans-Serif';
+  font-size: 1rem;
+  line-height: 1.618;
+}
+
+nav {
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
+  outline: none;
+}
+
+p, a {
+  color: #333;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    max-width: 60%;
+    margin: 2rem auto;
+  } 
+}
