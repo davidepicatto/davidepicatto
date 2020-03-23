@@ -1,3 +1,6 @@
+$HighlightColor: #800000;
+$underlineHeight: 5%;
+
 * {
   margin: 0;
   padding: 0;
@@ -6,22 +9,77 @@
 body {
   margin: 1rem auto;
   max-width: 90%;
-  font-family: 'Sans-Serif';
+  font-family: 'Serif';
   font-size: 1rem;
   line-height: 1.618;
 }
 
+nav, h1, h2, h3 {
+  font-family: Sans-Serif;
+}
+
 nav {
-  font-family: monospace;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+p, a {
+  color: #333;
 }
 
 a {
   text-decoration: none;
-  font-variant: small-caps;
   font-weight: bold;
-  outline: none;
+  font-variant: small-caps;
+
+  &:hover {
+  text-decoration: none;
+  color: $HighlightColor;
+  }
+}
+
+#content p a {
+  position: relative;
+  text-decoration: none;
+  font-weight: normal;
+  font-variant: normal;
+  display: inline-block;
+  padding: 0 1px;
+  transition: color ease 0.3s;
+
+  &::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: $underlineHeight;
+  left: 0;
+  bottom: 0;
+  background-color: $HighlightColor;
+  transition: all ease 0.3s;
+  }
+                                            
+  &:hover {
+  text-decoration: none;
+  color: white;
+
+    &::after {
+    height: 100%;
+    }
+  }
+}
+
+#title {
+  float: right;
+  color: $HighlightColor;
 }
 
 li {
@@ -30,9 +88,11 @@ li {
 
 div .article {
   padding-bottom: 2rem;
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid $HighlightColor;
 }
+
 div .article h2 {
+  margin: 0;
   padding-top: 2rem;
 }
 
@@ -40,17 +100,11 @@ div .article h2 {
   font-size: 1.6rem;
 }
 
-p {
+.info {
+  font-size: 1rem;
+  color: grey;
+  padding-bottom: 1rem;
 }
-
-p, a {
-  color: #333;
-}
-
-a:hover {
-    color: orange;
-    text-decoration: none;
-  }
 
 .racconti {
   margin-top: 2rem;
@@ -62,19 +116,10 @@ a:hover {
 
 .pagination a, .pagination span {
   padding: 7px 18px;
-  border: 1px solid #eee;
   margin-top: 1rem;
   margin-left: -2px;
   margin-right: -2px;
   display: inline-block;
-}
-
-.pagination a {    
-  font-size: 1rem;
-  &:hover {
-    background-color: orange;
-    color: #333;
-  }
 }
 
 .pagination {

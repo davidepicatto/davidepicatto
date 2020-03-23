@@ -6,6 +6,7 @@ title: Home
 {% for post in paginator.posts %}
   <div class="article">
     <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p class="info">{{ post.date | date: "%d-%m-%Y" }}</p>
     <p>{{ post.content }}</p>
   </div>
 {% endfor %}

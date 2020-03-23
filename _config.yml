@@ -56,3 +56,7 @@ paginate_path: /page:num/
 #   - vendor/gems/
 #   - vendor/ruby/
 #
+
+
+permalink: /:categories/:title/
+markdown: kramdown
