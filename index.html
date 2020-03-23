@@ -2,13 +2,36 @@
 layout: default
 title: Home
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <h1>{{ "Hello World!" | downcase }}</h1>
-  </body>
-</html>
+<!-- post list -->
+{% for post in paginator.posts %}
+  <div class="article">
+    <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content }}</p>
+  </div>
+{% endfor %}
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+    {% else %}
+      <span>&laquo;</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+        {% elsif page == 1 %}
+          <a href="/">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+    {% else %}
+      <span>&raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

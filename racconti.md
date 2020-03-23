@@ -1,5 +1,6 @@
 ---
 layout: default
+title: racconti
 ---
   {% for item in site.data.racconti %}
   <div class="racconti">
