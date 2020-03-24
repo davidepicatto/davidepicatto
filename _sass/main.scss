@@ -1,5 +1,7 @@
 $HighlightColor: #800000;
 $underlineHeight: 5%;
+$fontSmall: 1rem;
+$fontBig: 1.3rem;
 
 * {
   margin: 0;
@@ -10,8 +12,8 @@ body {
   margin: 1rem auto;
   max-width: 90%;
   font-family: 'Serif';
-  font-size: 1rem;
   line-height: 1.618;
+  font-size: $fontSmall;
 }
 
 nav, h1, h2, h3 {
@@ -19,12 +21,11 @@ nav, h1, h2, h3 {
 }
 
 nav {
-  font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
 nav a {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 p {
@@ -96,12 +97,8 @@ div .article h2 {
   padding-top: 2rem;
 }
 
-#content {
-  font-size: 1.6rem;
-}
-
 .info {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: grey;
   padding-bottom: 1rem;
 }
@@ -129,7 +126,6 @@ div .article h2 {
 footer {
   margin-top: 5rem;
   border-top: 1px solid #d5d5d5;
-  font-size: 1rem;
 }
 
 footer p {
@@ -145,6 +141,11 @@ footer p {
   body {
     max-width: 60%;
     margin: 2rem auto;
+    font-size: $fontBig;
   } 
+
+  nav a {
+    margin-right: 1rem;
+  }
 
 }
