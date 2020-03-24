@@ -1,8 +1,12 @@
-- name: Tartarughe
-  link: /assets/racconti/tartarughe.pdf
-  year: 2019
-  description: Ambientato a Torino
-- name: Buio come la notte
-  link: /assets/racconti/buio come la notte.pdf
-  year: 2019
-  description: Ambientato a Torino
+#- name: Tartarughe
+#  link: /assets/racconti/tartarughe.pdf
+#  year: 2019
+#  description: Ambientato a Torino
+#- name: Buio come la notte
+#  link: /assets/racconti/buio come la notte.pdf
+#  year: 2019
+#  description: Ambientato a Torino
+- name: Il pistolero
+  link: /assets/racconti/il pistolero.pdf
+  year: 2007
+  description: Se c’è una logica a questo mondo, se esiste una cosa sicura, una certezza, è che un uomo a piedi che insegue un uomo a cavallo non può raggiungerlo.

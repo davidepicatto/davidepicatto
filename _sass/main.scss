@@ -1,7 +1,15 @@
+/* Fonts
+font-family: 'Source Code Pro', monospace;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif Pro', serif;
+*/
+
+/* Variables */
 $HighlightColor: #800000;
 $underlineHeight: 5%;
-$fontSmall: 0.9rem;
+$fontSmall: 1rem;
 $fontBig: 1.3rem;
+
 
 * {
   margin: 0;
@@ -11,13 +19,13 @@ $fontBig: 1.3rem;
 body {
   margin: 1rem auto;
   max-width: 90%;
-  font-family: 'Serif';
-  line-height: 1.618;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 140%;
   font-size: $fontSmall;
 }
 
 nav, h1, h2, h3 {
-  font-family: Sans-Serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav {
@@ -136,10 +144,10 @@ footer p {
   margin: 1rem auto 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
 
   body {
-    max-width: 60%;
+    max-width: 80%;
     margin: 2rem auto;
     font-size: $fontBig;
   } 
@@ -148,4 +156,10 @@ footer p {
     margin-right: 1rem;
   }
 
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    max-width: 60%;
+  } 
 }
