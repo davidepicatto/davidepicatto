@@ -115,8 +115,12 @@ div .article h2 {
   margin-top: 2rem;
 }
 
-.racconti h3, p {
+.racconti h2, p {
   margin: 0;
+}
+
+.racconti p {
+  margin-top: 0.5rem;
 }
 
 .pagination a, .pagination span {
