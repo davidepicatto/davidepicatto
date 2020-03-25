@@ -10,7 +10,7 @@ Lo passai a qualche amico.
 
 Incredibilmente, piacque.  
 
-Lo caricai online, su un sito di self publishing che all'epoca andava alla grande, [lulu.com](www.lulu.com). Venne letto da un po' di gente. Ricevetti commenti, consigli, email. Ci fu qualcuno che lo aveva stampato e appeso in ufficio. La cosa mi diede coraggio.
+Lo caricai online, su un sito di self publishing che all'epoca andava alla grande, [lulu.com](https://www.lulu.com). Venne letto da un po' di gente. Ricevetti commenti, consigli, email. Ci fu qualcuno che lo aveva stampato e appeso in ufficio. La cosa mi diede coraggio.
 
 Continuai a scrivere. Senza ossessione, senza continuità, con ben poco successo. La vergogna come filtro, partecipai a premi letterari, pubblicai in antologia, liberai molto materiale sul web. 
 
