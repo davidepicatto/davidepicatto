@@ -21,8 +21,9 @@
 title: Davide Picatto
 email: davidepicatto@gmail.com
 author: Davide Picatto
-tagline: storie, narrazioni, racconti
+tagline: 
 description: >- # this means to ignore newlines until "baseurl:"
+  storie, narrazioni, racconti
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.davidepicatto.it" # the base hostname & protocol for your site, e.g. http://example.com
 lang: it_IT

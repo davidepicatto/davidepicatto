@@ -1,6 +1,6 @@
 ---
 layout: default
-title: racconti
+title: Racconti
 ---
   {% for item in site.data.racconti %}
   <div class="racconti">
