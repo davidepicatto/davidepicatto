@@ -96,8 +96,7 @@ li {
 }
 
 div .article {
-  padding-bottom: 2rem;
-  border-bottom: 1px solid $HighlightColor;
+  border-bottom: 0px solid $HighlightColor;
 }
 
 div .article h2 {
@@ -137,7 +136,7 @@ div .article h2 {
 
 footer {
   margin-top: 5rem;
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid $HighlightColor;
 }
 
 footer p {
