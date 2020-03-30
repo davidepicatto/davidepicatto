@@ -11,9 +11,9 @@
   epub: /assets/racconti/la bestia.epub
   mobi: /assets/racconti/la bestia.mobi
   year: 2013
-  note: Vincitore del secondo premio della IV edizione del concorso <a href="https://www.davidepicatto.it">Giallo di Romagna</a>.
+  note: Vincitore del secondo premio della IV edizione del concorso Giallo di Romagna.
   description: La bestia si libera, colpisce con furia, distrugge. Riesci a tenerla a bada?
 - name: Il pistolero
-  link: /assets/racconti/il pistolero.pdf
+  pdf: /assets/racconti/il pistolero.pdf
   year: 2007
   description: Se c’è una logica a questo mondo, se esiste una cosa sicura, una certezza, è che un uomo a piedi che insegue un uomo a cavallo non può raggiungerlo.
