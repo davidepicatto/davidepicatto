@@ -118,6 +118,10 @@ h1, div .article h2 {
   margin-top: 1em;
 }
 
+.lettura {
+  text-align: justify;
+}
+
 .paypal {
   text-align: center;
   margin: 0 10%;
@@ -125,7 +129,7 @@ h1, div .article h2 {
   font-family: 'Source Code Pro', monospace;
 }
 
-.paypal:first-letter {
+.paypal a:first-letter {
   text-transform: uppercase;
 }
 
@@ -133,6 +137,7 @@ h1, div .article h2 {
   font-size: 0.8rem;
   color: grey;
   padding: 0;
+  margin-bottom: 1rem;
 }
 
 .racconti {
@@ -198,10 +203,6 @@ footer p {
     float: right;
     display: inline;
     text-align: left;
-  }
-
-  .lettura {
-    text-align: justify;
   }
 
 }

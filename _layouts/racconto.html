@@ -4,7 +4,7 @@ lang: it_IT
 ---
 <div class="lettura">
   <h1>{{ page.title }}</h1>
-  <p class="info">{{ page.date | date: "%d-%m-%Y" }} | {{ page.category }}</p>
+  <p class="info">{{ page.date | date: "%d-%m-%Y" }} | <a href="{{site.baseurl}}/{{page.category}}/">{{ page.category }}</a></p>
 
   {{ content }}
 

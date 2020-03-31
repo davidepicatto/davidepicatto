@@ -9,7 +9,8 @@ title: Quarantena
   <p>Potete leggere <i>Quarantena</i> gratuitamente cliccando sui link che seguono. Se volete sostenere il mio lavoro potete lasciarmi un'<a href="https://www.paypal.me/davidepicatto">offerta libera tramite Paypal</a>.</p>
   <p>Contatti: <a href="https://t.me/davidepicatto">telegram</a> | <a href="mailto:davidepicatto@gmail.com">email</a> | <a href="https://www.facebook.com/davide.picatto">facebook</a></p>
 </div>
-  {% for post in site.categories.quarantena %}
+{% assign quarantenalist = site.categories.quarantena | sort: post.title %}
+  {% for post in quarantenalist %}
   <div class="racconti">
   <li><h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2></li>
   </div>
