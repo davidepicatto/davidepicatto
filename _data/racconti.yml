@@ -6,6 +6,12 @@
 #  link: /assets/racconti/buio come la notte.pdf
 #  year: 2019
 #  description: Ambientato a Torino
+- name: Regalo aziendale
+  pdf: /assets/racconti/regalo aziendale.pdf
+  year: 2009
+  note: Vincitore del secondo premio del concorso Lama e trama 2009.
+  description: Un racconto pulp ai tempi della crisi economica. Un ufficio, tre dipendenti licenziati, un manager, un regalo aziendale.
+
 - name: La bestia
   pdf: /assets/racconti/la bestia.pdf
   epub: /assets/racconti/la bestia.epub
@@ -13,6 +19,7 @@
   year: 2013
   note: Vincitore del secondo premio della IV edizione del concorso Giallo di Romagna.
   description: La bestia si libera, colpisce con furia, distrugge. Riesci a tenerla a bada?
+
 - name: Il pistolero
   pdf: /assets/racconti/il pistolero.pdf
   year: 2007
