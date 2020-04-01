@@ -178,6 +178,10 @@ footer p {
   text-align: justify;
 }
 
+footer .info {
+  text-align: center;
+}
+
 .foot {
   margin: 1rem auto 0;
 }
@@ -189,7 +193,7 @@ footer p {
   position: fixed;
   bottom: 0;
   left: 0;
-  max-width: 100%;
+  width: 100%;
   background: #222;
   color: rgba(255,255,255,0.8);
 }
@@ -203,6 +207,11 @@ footer p {
   display: block;
   padding-top: 3px;
   margin-bottom: 1 rem;
+}
+
+#cookie-notice a {
+  position: relative;
+  bottom: 4px;
 }
 
 @media only screen and (min-width: 600px) {
