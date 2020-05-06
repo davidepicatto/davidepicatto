@@ -1,0 +1,13 @@
+---
+layout: default
+lang: it_IT
+---
+<div class="lettura">
+  <h1>{{ page.title }}</h1>
+
+  <p class="info">{{ page.date | date: "%d-%m-%Y" }} | <a href="{{site.baseurl}}/{{page.category}}/">{{ page.category }}</a> | {% for tag in page.tags %} {% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}/">{{ tag_name }}</a>{% endfor %}</p>
+  {{ content }}
+
+  {% include catnav.html %}
+  {% include sto.html %}
+</div>

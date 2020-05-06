@@ -21,4 +21,9 @@
 
   <meta name="msvalidate.01" content="9B58B84669E9D102C11B7CAFF8ACE084" />
   {% seo %}
+
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+  {% endif %}
+
 </head>

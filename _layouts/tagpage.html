@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="post">
+  <h1>{{ page.tag }}</h1>
+  <ul>
+    {% for post in site.tags[page.tag] %}
+      <li>
+      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <p class="info">{{ post.date | date: "%d-%m-%Y" }} | <a href="{{site.baseurl}}/{{post.category}}/">{{ post.category }}</a> | {% for tag in post.tags %} {% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}/">{{ tag_name }}</a>{% endfor %}</p>
+      <p class="excerpt"> {{ post.content | markdownify | strip_html | truncatewords: 50 }} </p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

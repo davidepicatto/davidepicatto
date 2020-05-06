@@ -63,7 +63,7 @@ a {
   }
 }
 
-#content p a {
+#content p a, .racconti li a {
   position: relative;
   text-decoration: none;
   font-weight: normal;
@@ -109,9 +109,17 @@ div .article {
   border-bottom: 0px solid $HighlightColor;
 }
 
-h1, div .article h2 {
+h1 {
   margin: 0;
   padding-top: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 1rem auto;
 }
 
 .intro {
@@ -155,6 +163,12 @@ h1, div .article h2 {
 .racconti li a {
   font-weight: normal;
   font-variant: normal;
+}
+
+.excerpt {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 140%;
+  font-size: $fontBig;
 }
 
 .pagination {
@@ -248,4 +262,17 @@ footer a {
   body {
     max-width: 55%;
   } 
+
+  .imgr {
+    width: 40%;
+    float: right;
+    margin-left: 2rem;
+  }
+
+  .imgl {
+    width: 40%;
+    float: left;
+    margin-right: 2rem;
+  }
+
 }

@@ -1,6 +1,8 @@
 - name: home
   link: /
-- name: racconti
-  link: /racconti
+- name: storie
+  link: /storie
 - name: quarantena
   link: /quarantena
+- name: racconti
+  link: /racconti
