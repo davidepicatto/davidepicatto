@@ -2,6 +2,8 @@
 layout: storie
 title: "Whisky Robber"
 category: storie
+featured-image: /assets/img/whisky_robber_01.jpeg
+featured-image-alt: Attila Ambrus, Whisky Robber
 tags: persone
 ---
 ![Attila Ambrus](/assets/img/whisky_robber_01.jpg "Attila Ambrus")
