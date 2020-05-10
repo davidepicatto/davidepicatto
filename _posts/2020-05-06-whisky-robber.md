@@ -1,9 +1,9 @@
 ---
 layout: storie
 title: "Whisky Robber"
-category: storie
+description: La storia di Attila Ambrus, alias Whisky Robber, giocatore di hockey e rapinatore dal cicchetto facile, eroe popolare in Ungheria dopo la fine del comunismo.
 featured-image: /assets/img/whisky_robber_01.jpeg
-featured-image-alt: Attila Ambrus, Whisky Robber
+category: storie
 tags: persone
 ---
 ![Attila Ambrus](/assets/img/whisky_robber_01.jpg "Attila Ambrus")
