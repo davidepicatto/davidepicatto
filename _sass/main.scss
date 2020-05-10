@@ -183,6 +183,19 @@ img {
   display: inline-block;
 }
 
+.share {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: $fontSmall;
+  text-transform: uppercase;
+}
+
+.share-buttons {
+  margin-top: 1rem;
+  font-size: $fontBig;
+}
+
 footer {
   margin-top: 5rem;
   border-top: 1px solid $HighlightColor;
@@ -203,34 +216,6 @@ footer a {
 
 .foot {
   margin: 1rem auto 0;
-}
-
-#cookie-notice {
-  padding: 0.5rem 1rem;
-  display: none;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: #222;
-  color: rgba(255,255,255,0.8);
-}
-
-#cookie-notice a {
-  display: inline-block;
-  margin-left: 1rem;
-}
-
-#cookie-notice span {
-  display: block;
-  padding-top: 3px;
-  margin-bottom: 1 rem;
-}
-
-#cookie-notice a {
-  position: relative;
-  bottom: 4px;
 }
 
 @media only screen and (min-width: 600px) {
