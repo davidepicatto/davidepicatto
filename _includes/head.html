@@ -9,10 +9,15 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.JPG">
   <link rel="alternate" type="application/atom+xml" title="Davide Picatto" href="/feed.xml">
-  {% if page.featured-imgage %}
-      <meta property="og:image" content="{{ site.url }}/{{ page.featured-imgage }}" />
-  {% endif %}
-  <meta property="og:description" content="{{ page.description }}" />
+
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.image }}">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161827378-1"></script>
   <script>
