@@ -8,7 +8,7 @@ lang: it_IT
   <p class="info">{{ page.date | date: "%d-%m-%Y" }} | <a href="{{site.baseurl}}/{{page.category}}/">{{ page.category }}</a> | {% for tag in page.tags %} {% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}/">{{ tag_name }}</a>{% endfor %}</p>
   {{ content }}
 
-  {% include share.html %}
   {% include catnav.html %}
+  {% include share.html %}
   {% include sto.html %}
 </div>
