@@ -46,8 +46,6 @@ Il 22 giugno 1941 scatta l'operazione Barbarossa. 3 milioni e mezzo di uomini, 3
 
 {% include imgc.html url="/assets/img/mariya_06.jpg" description="Soldato tedesco e carro sovietico BT-7 distrutto nei pressi di Uman. Crediti: Bundesarchiv, Bild 101I-020-1268-36 / Hähle, Johannes / CC-BY-SA 3.0" %}
 
-[![Soldato tedesco e carro sovietico BT-7 distrutto nei pressi di Uman](/assets/img/mariya_06.jpg "")](https://it.wikipedia.org/wiki/Operazione_Barbarossa#/media/File:Bundesarchiv_Bild_101I-020-1268-36,_Russland,_russischer_Gefallener,_Panzer_BT_7,.jpg)
-
 Dinanzi al pericolo Mariya viene evacuata in Siberia, lontana dal fronte, impiegata come operatrice radio. Il marito invece parte per la guerra e cade nell'agosto del 1941 difendendo Kiev. Con il paese in ginocchio, le infrastrutture a pezzi e un invasore da ricacciare indietro, la moglie viene a sapere della morte di Ilya solo due anni dopo, nel 1943.  
 
 E giura vendetta.  
