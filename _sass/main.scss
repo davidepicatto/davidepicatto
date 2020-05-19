@@ -94,6 +94,17 @@ a {
   }
 }
 
+#content a[href$=jpg], #content a[href$=jpeg], #content a[href$=jpe], #content a[href$=png], #content a[href$=gif] {
+
+  &::after {
+  background-color: white;
+  }
+                                            
+  &:hover {
+  color: white;
+  }
+}
+
 .title {
   display: block;
   text-align: center;
@@ -120,6 +131,13 @@ img {
   border-radius: 10px;
   display: block;
   margin: 1rem auto;
+}
+
+.imgr, .imgl, .imgc {
+  text-align: center;
+  font-size: 0.9rem;
+  color: grey;
+  margin: 1rem 0;
 }
 
 .intro {
@@ -192,7 +210,8 @@ img {
 }
 
 .share-buttons {
-  margin-top: 1rem; font-size: $fontBig;
+  margin-top: 1rem;
+  font-size: $fontBig;
 }
 
 footer {

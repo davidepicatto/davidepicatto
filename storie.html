@@ -8,7 +8,7 @@ title: Storie
   <p>Potete leggere <i>Storie</i> gratuitamente cliccando sui link che seguono. Se volete sostenere il mio lavoro potete lasciarmi un'<a href="https://www.paypal.me/davidepicatto">offerta libera tramite Paypal</a>.</p>
 
 </div>
-{% assign storielist = site.categories.storie | sort: post.title %}
+{% assign storielist = site.categories.storie | sort: 'date' | reverse %}
   {% for post in storielist %}
   <div class="racconti">
     <li>
